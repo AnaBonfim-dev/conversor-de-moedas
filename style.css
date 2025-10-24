@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: black;
+    font-weight: 400;
+    background: linear-gradient(90deg, rgb(70, 17, 156) 0%, rgb(82, 22, 156) 56%, rgba(93, 56, 214, 1) 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: #ac9bff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #1d0d34;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.converter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.currency-row {
+    display: flex;
+    gap: 15px;
+    align-items: end;
+}
+
+.currency-input {
+    flex: 2;
+}
+
+.currency-select {
+    flex: 1;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e0e0e0;
+    background: #f8f9fa;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: all 0.4s ease;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #9d66ea;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+    transform: translateY(-2px);
+}
+
+select {
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #362056;
+    font-weight: 600;
+    text-align: left;
+}
+
+.converter-btn {
+    background: linear-gradient(45deg, #693daa, #9d66ea);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.4s ease;
+}
+
+.converter-btn:hover {
+    box-shadow: 0 8px 25px rgba(20, 13, 30, 0.23);
+    transform: translateY(-2px);
+}
+
+.loading {
+    margin-top: 20px;
+    display: none;
+}
+
+.spinner {
+    border: 3px solid #e1ccff;
+    border-top: 3px solid #693daa;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.info {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #616161;
+}
+
+.result {
+    background: linear-gradient(45deg, #9b4aff 0%, #e557f5 100%);
+    padding: 20px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 12px;
+    display: none;
+}
+
+.error{
+    background: linear-gradient(45deg, #fd5288, #ee2874);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: none;
+}
