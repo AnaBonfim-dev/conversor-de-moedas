@@ -17,7 +17,7 @@ Um **Conversor de Moedas** feito com **HTML, CSS e JavaScript**, que permite con
 ## Demonstração Online
 
 Experimente o conversor de moedas diretamente no seu navegador:  
-[https://anabonfim-dev.github.io/conversor-de-moedas/](https://anabonfim-dev.github.io/conversor-de-moedas/)
+[Conversor de Moedas Web](https://anabonfim-dev.github.io/conversor-de-moedas/)
 
 ---
 
