@@ -8,7 +8,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     color: black;
     font-weight: 400;
-    background: linear-gradient(90deg, rgb(70, 17, 156) 0%, rgb(82, 22, 156) 56%, rgba(93, 56, 214, 1) 100%);
+    background: linear-gradient(90deg, #673ab7 0%, #7e57c2 50%, #9575cd 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -85,7 +85,7 @@ label {
 }
 
 .converter-btn {
-    background: linear-gradient(45deg, #693daa, #9d66ea);
+    background: linear-gradient(45deg, #7e57c2, #9c77e4);
     color: white;
     border: none;
     padding: 15px 30px;
@@ -134,7 +134,7 @@ label {
 }
 
 .result {
-    background: linear-gradient(45deg, #9b4aff 0%, #e557f5 100%);
+    background: linear-gradient(45deg, #8e24aa 0%, #ba68c8 100%);
     padding: 20px;
     margin-top: 30px;
     color: #fff;
@@ -144,7 +144,7 @@ label {
     display: none;
 }
 
-.error{
+.error {
     background: linear-gradient(45deg, #fd5288, #ee2874);
     color: white;
     padding: 15px;
